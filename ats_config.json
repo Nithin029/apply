@@ -1,0 +1,110 @@
+{
+  "greenhouse": {
+    "integration_id": "YOUR_GREENHOUSE_INTEGRATION_ID",
+    "requires_candidate_object": false,
+    "notes": "Either candidateId or candidate object required"
+  },
+  "lever": {
+    "integration_id": "YOUR_LEVER_INTEGRATION_ID",
+    "requires_candidate_object": false,
+    "notes": "lastName is not honored by lever API"
+  },
+  "workday_ats": {
+    "integration_id": "YOUR_WORKDAY_INTEGRATION_ID",
+    "requires_candidate_object": false,
+    "notes": "Fields Not Supported: answers, attachment, candidate.title, candidate.company, candidate.workAddress, and candidate.permanentAddress. In metaData, countryCodeId field is required."
+  },
+  "successfactors_ats": {
+    "integration_id": "YOUR_SUCCESSFACTORS_INTEGRATION_ID",
+    "requires_candidate_object": false,
+    "notes": "initialStageId is not honored. candidate.presentAddress.country field is required if passing candidate object."
+  },
+  "oracle_hcm_ats": {
+    "integration_id": "YOUR_ORACLE_HCM_INTEGRATION_ID",
+    "requires_candidate_object": false
+  },
+  "workable": {
+    "integration_id": "mg_bdP3JP31kh2jnCGTJGr1er",
+    "requires_candidate_object": true,
+    "notes": "Creating an application via candidateId is not supported. candidate object is required"
+  },
+  "smartrecruiters_ats": {
+    "integration_id": "YOUR_SMARTRECRUITERS_INTEGRATION_ID",
+    "requires_candidate_object": false
+  },
+  "teamtailor": {
+    "integration_id": "YOUR_TEAMTAILOR_INTEGRATION_ID",
+    "requires_candidate_object": false
+  },
+  "breezy": {
+    "integration_id": "mg_YZ2dllr3UzefyrQ7E1QPqS",
+    "requires_candidate_object": true,
+    "notes": "Creating an application via candidateId is not supported. candidate object is required"
+  },
+  "sage_ats": {
+    "integration_id": "YOUR_SAGE_INTEGRATION_ID",
+    "requires_candidate_object": true,
+    "notes": "Creating an application via candidateId is not supported. candidate object is required"
+  },
+  "bullhorn": {
+    "integration_id": "YOUR_BULLHORN_INTEGRATION_ID",
+    "requires_candidate_object": false
+  },
+  "ashby": {
+    "integration_id": "YOUR_ASHBY_INTEGRATION_ID",
+    "requires_candidate_object": false
+  },
+  "ukgpro_ats": {
+    "integration_id": "YOUR_UKGPRO_INTEGRATION_ID",
+    "requires_candidate_object": false,
+    "notes": "initialStageId is not honored. Need to pass additional fields inside metaData key."
+  },
+  "keka_ats": {
+    "integration_id": "YOUR_KEKA_INTEGRATION_ID",
+    "requires_candidate_object": true,
+    "notes": "Creating an application via candidateId is not supported. initialStageId is not honored pass any dummy string."
+  },
+  "zoho_recruit": {
+    "integration_id": "mg_CuzaQl6YbvvFrvC9xP5gk6",
+    "requires_candidate_object": false,
+    "notes": "initialStageId is not honored, pass dummy string"
+  },
+  "bamboohr_ats": {
+    "integration_id": "mg_d8SfAvVUwjyJHrffzeAnAC",
+    "requires_candidate_object": true,
+    "notes": "Creating an application via candidateId is not supported. candidate object is required. initialStageId is not honored."
+  },
+  "jazzhr_ats": {
+    "integration_id": "YOUR_JAZZHR_INTEGRATION_ID",
+    "requires_candidate_object": false,
+    "notes": "initialStageId is not honored"
+  },
+  "recruitee": {
+    "integration_id": "mg_X3rFfTRfRdTGT9p6IG6rEO",
+    "requires_candidate_object": false,
+    "notes": "initialStageId is not honored"
+  },
+  "oracle_taleo": {
+    "integration_id": "YOUR_ORACLE_TALEO_INTEGRATION_ID",
+    "requires_candidate_object": false,
+    "notes": "initialStageId is not honored"
+  },
+  "icims": {
+    "integration_id": "YOUR_ICIMS_INTEGRATION_ID",
+    "requires_candidate_object": false
+  },
+  "loxo": {
+    "integration_id": "YOUR_LOXO_INTEGRATION_ID",
+    "requires_candidate_object": true,
+    "notes": "Creating an application via candidateId is not supported. candidate object is required. initialStageId is not honored. lastName is not honored - pass full name in firstName. metaData should contain resume details (compulsory)."
+  },
+  "pinpoint": {
+    "integration_id": "YOUR_PINPOINT_INTEGRATION_ID",
+    "requires_candidate_object": true,
+    "notes": "Creating an application via candidateId is not supported. candidate object is required"
+  },
+  "peoplestrong_ats": {
+    "integration_id": "YOUR_PEOPLESTRONG_INTEGRATION_ID",
+    "requires_candidate_object": false
+  }
+}
